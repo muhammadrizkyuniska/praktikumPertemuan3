@@ -124,7 +124,7 @@ public class PenerbitTampilFrame extends JFrame {
         bCari.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                resetTable("WHERE Penerbit like '%"+bCari.getText()+"%'");
+                resetTable(" WHERE Penerbit like '%"+eCari.getText()+"%'");
             }
         });
         
